@@ -1,0 +1,12 @@
+#header{
+    margin: 0 auto;
+}
+
+#header-img{
+    width: 95vw;
+    height: 85vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
