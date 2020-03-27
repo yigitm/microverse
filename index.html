@@ -18,11 +18,16 @@
 
 <form id="survey-form">
   <div class="col">
+    <label for="inputEmail4" id="name-label">Name</label>
     <input type="text" class="form-control" placeholder="Name" id="name">
   </div>
-  <div class="form-group col-md-6">
-    <label for="inputEmail4" >Email</label>
-    <input type="email" class="form-control" id="inputEmail4" id="email">
+  <div class="col">
+    <label for="inputEmail4" id="email-label" >Email</label>
+    <input type="email" class="form-control" id="inputEmail4" id="email" placeholder="Email" required>
+  </div>
+  <div class="col">
+    <label for="inputEmail4" id="number-label">Number</label>
+    <input min=10 max=100 type="number" class="form-control" placeholder="Number" id="number" required>
   </div>
 </form>
 
@@ -35,9 +40,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-
-
-
-
